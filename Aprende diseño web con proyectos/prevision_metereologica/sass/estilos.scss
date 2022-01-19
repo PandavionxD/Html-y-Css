@@ -1,0 +1,65 @@
+$color-body:rgb(75, 216, 235);
+$color-title:rgb(177, 174, 174);
+$color-rojo:red;
+$color-azul:blue;
+$color-blanco:#fff;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $color-body;
+}
+.body__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    h1{
+        font-size: 3em;
+        margin: 10px 0 10px 10px;
+    }
+    img{
+        width: 80px;
+    }
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+@mixin cards {
+    border: solid 4px #000;
+    width: 180px;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    figure{
+        background-color: $color-blanco;
+    }
+    img{
+        width: 60px;
+        padding: 30px 0;
+    }
+    h1{
+        font-size: 3em;
+        background-color: $color-title;
+        text-transform: uppercase;
+        padding: 10px;
+    }
+    .rojo{
+        font-size: 3em;
+        background-color: $color-rojo;
+        color: #fff;
+        padding: 20px;
+    }
+    .azul{
+        font-size: 3em;
+        background-color: $color-azul;
+        color: #fff;
+        padding: 20px
+    }
+}
+.card{
+    @include cards();
+}

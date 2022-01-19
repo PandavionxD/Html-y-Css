@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1em;
+  font-family: Arial, "roboto", sans-serif;
+}
+
+.home-body {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  width: 100vw;
+  height: 40px;
+  background-color: red;
+}
+nav ul {
+  display: flex;
+  grid-column: 6/7;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 2em;
+  color: #fff;
+}
+nav ul i:hover {
+  color: gray;
+  transition: 0.4s;
+}
+
+.header__menu {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__menu a {
+  text-decoration: none;
+  color: #000;
+  text-decoration: underline;
+}
+
+.home-main {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  height: 100%;
+  background-image: url(../img/cover.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-main::after {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.main-container {
+  display: grid;
+  grid-column: 2;
+  justify-items: center;
+  height: 350px;
+  margin-top: 80px;
+}
+
+.main-container__text {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700px;
+  letter-spacing: 10px;
+  color: #fff;
+}
+
+.main-container__link {
+  background: red;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  height: 45px;
+}
+
+.main-container__link:hover {
+  opacity: 0.8;
+}
+
+/*# sourceMappingURL=estilos.css.map */

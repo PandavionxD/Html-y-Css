@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 80vw;
+  max-height: 100vh;
+  margin: 0 auto;
+}
+
+.main__primera {
+  display: flex;
+  height: 30%;
+  max-height: 30%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px;
+}
+.main__primera img {
+  height: 90px;
+}
+
+.main__segunda, .main__tercera {
+  margin: 30px;
+}
+
+.main__div__2 {
+  text-align: center;
+}
+
+.main__container__os {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__container__os img {
+  height: 90px;
+  margin: 20px;
+}
+
+.main__div__3 {
+  text-align: center;
+}
+
+.main__container__navegadores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__container__navegadores img {
+  height: 90px;
+  margin: 20px;
+}
+
+hr {
+  border: 2px solid green;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+/*# sourceMappingURL=estilos.css.map */

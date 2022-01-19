@@ -1,0 +1,88 @@
+/*
+    Variables
+*/
+:root {
+  --primary:red;
+}
+
+body h1 {
+  color: skyblue;
+}
+body p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body.container {
+  display: flex;
+}
+body p, body h1 {
+  color: aqua;
+}
+
+selector {
+  color: #000;
+}
+
+div {
+  border: 1px solid black;
+}
+
+h3 {
+  color: royalblue;
+}
+
+.container {
+  display: flex;
+}
+
+.selector-1 {
+  color: crimson;
+}
+
+.selector-2 {
+  color: crimson;
+}
+
+.selector-3 {
+  color: crimson;
+}
+
+.selector-4 {
+  color: crimson;
+}
+
+.selector-5 {
+  color: crimson;
+}
+
+.selector-6 {
+  color: crimson;
+}
+
+.selector-7 {
+  color: crimson;
+}
+
+.selector-8 {
+  color: crimson;
+}
+
+.selector-9 {
+  color: crimson;
+}
+
+.selector-10 {
+  color: crimson;
+}
+
+body {
+  color: red;
+  background-color: green;
+}
+
+/*
+
+Solo estos tipos de comentarios se va compilar
+
+*/
+
+/*# sourceMappingURL=index.css.map */

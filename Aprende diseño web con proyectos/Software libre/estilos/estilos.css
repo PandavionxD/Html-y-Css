@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(218, 239, 240, 0.993);
+}
+body h1 {
+  font-size: 3em;
+  background-color: #30227e;
+  color: #fff;
+}
+
+main {
+  max-width: 90%;
+  margin: 40px auto;
+}
+main h1 {
+  text-align: center;
+}
+
+article {
+  font-size: 1.4em;
+  max-width: 80%;
+  margin: 30px auto;
+}
+article h2 {
+  background-color: green;
+  color: #fff;
+  padding: 10px;
+  border-start-end-radius: 5px;
+  border-start-start-radius: 5px;
+}
+article p {
+  background-color: #fff;
+  padding: 10px;
+  border-end-start-radius: 5px;
+  border-end-end-radius: 5px;
+}
+.container{
+  background-color: aquamarine;
+  border-radius: 15px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=estilos.css.map */

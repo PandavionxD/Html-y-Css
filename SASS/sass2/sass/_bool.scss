@@ -1,0 +1,12 @@
+$valor:true;
+
+@if($valor){
+    .container{
+        display:flex;
+    }
+}
+@else{
+    .container{
+        display:grid;
+    }
+}

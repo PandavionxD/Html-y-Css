@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+.container .container-order {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 2rem;
+  width: 50rem;
+}
+.container .container-order .order-title h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: start;
+  margin-top: 2rem;
+}
+.container .container-order .order-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f7f7;
+  border-radius: 1.2rem;
+  padding: 1.4rem;
+}
+.container .container-order .order-total .total-1 p:nth-child(1) {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
+.container .container-order .order-total .total-1 p:nth-last-child(1) {
+  font-size: 1.4rem;
+  color: #c7c7c7;
+}
+.container .container-order .order-total .total-2 p {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.container .container-order .card-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .container-order .card-1 picture {
+  display: flex;
+  align-items: center;
+}
+.container .container-order .card-1 picture img {
+  border-radius: 1.2rem;
+  width: 7rem;
+  height: 7rem;
+  object-fit: cover;
+}
+.container .container-order .card-1 picture p {
+  font-size: 1.4rem;
+  color: #c7c7c7;
+  margin-left: 0.8rem;
+}
+.container .container-order .card-1 .precio {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .order-title {
+    display: none;
+  }
+
+  .container-order {
+    width: 30rem !important;
+  }
+}
+
+/*# sourceMappingURL=order.css.map */

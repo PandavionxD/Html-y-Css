@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4bd8eb;
+}
+
+.body__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.body__title h1 {
+  font-size: 3em;
+  margin: 10px 0 10px 10px;
+}
+.body__title img {
+  width: 80px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  border: solid 4px #000;
+  width: 180px;
+  text-align: center;
+  font-weight: bold;
+  align-items: center;
+}
+.card figure {
+  background-color: #fff;
+}
+.card img {
+  width: 60px;
+  padding: 30px 0;
+}
+.card h1 {
+  font-size: 3em;
+  background-color: #b1aeae;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.card .rojo {
+  font-size: 3em;
+  background-color: red;
+  color: #fff;
+  padding: 20px;
+}
+.card .azul {
+  font-size: 3em;
+  background-color: blue;
+  color: #fff;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

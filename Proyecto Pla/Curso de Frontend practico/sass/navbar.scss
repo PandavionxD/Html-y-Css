@@ -1,0 +1,89 @@
+@import 'variables';
+@import 'estilos_globales';
+// Variables
+// Colores 
+// $very_light_pink:#c7c7c7;
+// $white:#ffffff;
+// $text_input_field:#f7f7f7;
+// $black: #000000;
+// $hospital_green:#acd9b2;
+// $dark:#232830;
+
+// Tamaño de fuente
+// $sm:1.4rem;
+// $md:1.6rem;
+// $lg:1.8rem;
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+    padding: 0 2rem;
+    border-bottom: 0.2rem solid $text_input_field;
+    .nav-left{
+        display: flex;
+        align-items: center;
+        .menu-icon{
+            display: none;
+        }
+        img{
+            width: 12rem;
+        }
+        ul{
+            display: flex;
+            margin-left: 3rem;
+            li{
+                list-style: none;
+                border-radius: 1.2rem;
+                margin: 0 1.2rem;
+                padding: .4rem .6rem;
+                a{
+                    text-decoration: none;
+                    color: $very_light_pink;
+                    font-size: $md;
+                    cursor: pointer;
+                }
+            }
+            li:hover{
+                border: .1rem solid $hospital_green;
+                a{
+                    color: $hospital_green;
+                    font-weight: 700;
+                }
+            }
+            
+        }
+    }
+    .nav-right{
+        ul{
+            display: flex;
+            align-items: center;
+            li{
+                list-style: none;
+            }
+            li:nth-child(1){
+                font-size: $sm;
+                font-weight: 300;
+                padding-right: 1.2rem;
+                cursor: pointer;
+            }
+            .imagen{
+                position: relative;
+
+                div{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    border-radius: 50%;
+                    background-color: $hospital_green;
+                    width: 1.5rem;
+                }
+            }
+
+        }
+    }
+}

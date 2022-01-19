@@ -1,0 +1,16 @@
+footer{
+    width: 100%;
+    .rojo{
+        height: 38px;
+        background-color:#E6162E;
+    }
+    .negro{
+        display: flex;
+        height: 42px;
+        background-color: #22272D;
+        font-size: 18px;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+    }
+}

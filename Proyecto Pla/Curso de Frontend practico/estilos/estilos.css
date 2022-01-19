@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+main .container {
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 2rem;
+}
+main .container picture {
+  width: 30rem;
+}
+main .container picture img {
+  width: 100%;
+}
+main .container label {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+main .container input {
+  font-size: 1.8rem;
+  font-weight: 300;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 0.6rem;
+  background-color: #f7f7f7;
+}
+main .container .btn-1 {
+  margin: 1.2rem 0;
+  background-color: #acd9b2;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 3rem 1.6rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+main .container .formulario {
+  display: flex;
+  flex-direction: column;
+}
+main .container p {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+main .container p a {
+  text-decoration: none;
+  color: #acd9b2;
+}
+
+div {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+}
+div .btn-2 {
+  padding: 1.6rem;
+  margin: 0.6rem 0;
+  color: #acd9b2;
+  border: 0.1rem solid #acd9b2;
+  border-radius: 0.6rem;
+  background-color: #ffffff;
+  font-size: 2rem;
+  font-weight: 500;
+  position: fixed;
+  bottom: 0;
+  width: 30rem;
+}
+
+@media (min-width: 600px) {
+  picture {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,53 @@
+@import 'variables';
+@import 'estilos_globales';
+
+// // Colores 
+// $very_light_pink:#c7c7c7;
+// $white:#ffffff;
+// $text_input_field:#f7f7f7;
+// $black: #000000;
+// $hospital_green:#acd9b2;
+// $dark:#232830;
+
+// // Tamaño de fuente
+// $sm:1.6rem;
+// $md:1.8rem;
+// $lg:2rem;
+nav{
+    display: flex;
+    justify-content:end;
+}
+
+.nav_desktop{
+    text-align: end;
+    border: 1px solid $very_light_pink;
+    border-radius: 0.4rem;
+    display: inline-block;
+    ul{
+        list-style: none;
+        li{
+            margin: 2rem 2rem;
+        }
+        li:nth-child(1),
+        li:nth-child(2){
+            font-size: $lg;
+            font-weight: bold;
+            padding: 1.6rem 2 rem;
+        }
+        a{
+            color: $black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        li:nth-last-child(1){
+            border-top: 1px solid $very_light_pink;
+            a{
+                display: block;
+                color: $hospital_green;
+                font-weight: 300;
+                font-size: $sm;
+                margin-top: 1.2rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,95 @@
+// Variables
+// $very_light_pink:#c7c7c7;
+// $white:#ffffff;
+// $text_input_field:#f7f7f7;
+// $black: #000000;
+// $hospital_green:#acd9b2;
+// $dark:#232830;
+// Tamaño de fuentes
+// $sm:1.6rem;
+// $md:1.8rem;
+// $lg:2rem;
+@import 'variables';
+@import 'estilos_globales';
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    .container{
+        display: grid;
+        grid-template-rows: auto auto;
+        row-gap: 2rem;
+        picture{
+            width: 30rem;
+            img{
+                width: 100%;
+            }
+        }
+        label{
+            font-size: $lg;
+            font-weight: 700;
+            margin: 1rem 0;
+        }
+        input{
+            font-size: $md;
+            font-weight: 300;
+            padding: 0.8rem;
+            border: none;
+            border-radius: 0.6rem;
+            background-color: $text_input_field;
+        }
+        .btn-1{
+            margin: 1.2rem 0;
+            background-color:$hospital_green;
+            border: none;
+            border-radius: 0.6rem;
+            padding: 3rem 1.6rem;
+            font-size: $lg;
+            font-weight: 700;
+            color: $white;
+        }
+        .formulario{
+            display: flex;
+            flex-direction: column;
+        }
+        p{
+            text-align: center;
+            font-size: $md;
+            font-weight: 500;
+            a{
+                text-decoration: none;
+                color: $hospital_green;
+            }
+        }
+        
+        
+    }
+}
+div{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    .btn-2{
+        padding: 1.6rem;
+        margin:0.6rem 0;
+        color: $hospital_green;
+        border: 0.1rem solid $hospital_green;
+        border-radius: 0.6rem;
+        background-color: $white;
+        font-size: $lg;
+        font-weight: 500;
+        position: fixed;
+        bottom: 0;
+        width: 30rem;
+
+    }
+}
+@media (min-width:600px) {
+    picture{
+        display:none
+     }
+    
+}

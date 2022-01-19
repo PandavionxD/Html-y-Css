@@ -1,0 +1,40 @@
+@use 'sass:map';
+
+$variable:100;
+$pixeles:100px;
+
+
+// Esto es una impresion para el terminal
+//Imprimir por consola en sass
+
+@debug 'El valor es igual a ' 100*100;
+@debug 'El valor es #{100*100}';
+
+//  quoted string '' ""
+// unquoted string 
+
+$selector:"h1";
+
+#{selector}{
+    color:#000;
+}
+ 
+
+$borde: 1px solid black;
+
+//Esto es una lista
+
+div{
+    border: $borde;
+}
+
+//Esto es un mapa
+
+$colores:(
+'primary':royalblue,
+'secondary':crimson,
+'buttons':teal,
+);
+h3{
+    color: map.get($colores,'primary')
+}

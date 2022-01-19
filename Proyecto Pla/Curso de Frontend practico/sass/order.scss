@@ -1,0 +1,101 @@
+@import 'variables';
+@import 'estilos_globales';
+
+// // Variables
+// // Colores 
+// $very_light_pink:#c7c7c7;
+// $white:#ffffff;
+// $text_input_field:#f7f7f7;
+// $black: #000000;
+// $hospital_green:#acd9b2;
+// $dark:#232830;
+
+// // Tamaño de fuente
+// $sm:1.6rem;
+// $md:1.8rem;
+// $lg:2rem;
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    .container-order{
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        gap: 2rem;
+        width: 50rem;
+        .order-title{
+            h1{
+                font-size: $lg;
+                font-weight: bold;
+                text-align: start;
+                margin-top: 2rem;
+            }
+        }
+        .order-total{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: $text_input_field;
+            border-radius: 1.2rem;
+            padding: 1.4rem;
+            .total-1{
+                p:nth-child(1){
+                    font-size: $md;
+                    font-weight: bold;
+                    margin-bottom:.4rem;
+
+                }
+                p:nth-last-child(1){
+                    font-size: $sm;
+                    color: $very_light_pink;
+                }
+            }
+            .total-2{
+                p{
+                    font-size: $md;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+            }
+
+        }
+        .card-1{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            picture{
+                display: flex;
+                align-items: center;
+ 
+                img{
+                    border-radius: 1.2rem;
+                    width: 7rem;
+                    height: 7rem;
+                    object-fit: cover;
+                }
+                p{
+                    font-size: $sm;
+                    color: $very_light_pink;
+                    margin-left: .8rem;
+                }
+            }
+            .precio{
+                font-size: $sm;
+                font-weight: bold;
+            }
+        }
+
+}
+}
+@media (max-width:600px) {
+    .order-title{
+        display: none;
+    }
+    .container-order{
+        width: 30rem !important;
+    }
+}
+
+

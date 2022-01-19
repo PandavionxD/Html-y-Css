@@ -1,0 +1,15 @@
+// BOTONES
+.btn{
+    display:inline-block;
+    color:$button-color;
+    background-color: $button-bgcolor;
+    line-height: 2.5;
+    border-radius: $border-radius;   
+    font-size:$button-font-size;
+    &__icon{
+        font-size: .6em;
+    }
+    &--info{
+        background-color: $color-info;
+    }
+}

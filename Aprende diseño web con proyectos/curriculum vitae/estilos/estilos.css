@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #2be2b4;
+  align-items: center;
+}
+header h1, header h2 {
+  color: #fff;
+  margin: 10px;
+}
+header h2 {
+  text-align: center;
+}
+header .header__div__img {
+  margin: 10px;
+}
+
+main {
+  display: flex;
+  padding: 5% 10%;
+}
+
+.article__titulo {
+  color: #ff5100;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.article__container {
+  display: flex;
+}
+.article__container .container {
+  margin-left: 50px;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+.article__cards {
+  margin: 20px 0;
+  text-align: justify;
+  margin-right: 20px;
+}
+
+h4 {
+  font-weight: 900;
+}
+
+/*# sourceMappingURL=estilos.css.map */

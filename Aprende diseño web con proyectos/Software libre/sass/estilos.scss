@@ -1,0 +1,48 @@
+$color-body:rgba(218, 239, 240, 0.993);
+$color-azul:rgb(48, 34, 126);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $color-body;
+    h1{
+        font-size: 3em;
+        background-color: $color-azul;
+        color: #fff;
+    }
+}
+main{
+    max-width: 90%;
+    margin: 40px auto;
+    h1{
+        text-align: center;
+    }
+}
+
+
+@mixin card {
+    font-size: 1.4em;
+    max-width: 80%;
+    margin: 30px auto;
+    h2{
+        background-color: green;
+        color: #fff;
+        padding: 10px;
+        border-start-end-radius: 5px;
+        border-start-start-radius: 5px;
+    }
+    p{
+        background-color: #fff;
+        padding: 10px;
+        border-end-start-radius: 5px;
+        border-end-end-radius: 5px;
+    }
+
+    
+}
+
+article{
+    @include card();
+}

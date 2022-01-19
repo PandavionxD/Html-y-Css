@@ -1,0 +1,20 @@
+body {
+  padding: 50px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.clase {
+  padding: 15px;
+  border: radius 10px;
+  margin: 10px 0px;
+}
+.clase p {
+  font-size: 28px;
+}
+#identificador {
+  padding: 50px;
+  border-radius: 20px;
+}

@@ -1,0 +1,15 @@
+@use 'variables' with(
+    $primary:red,
+);
+@use 'valores';
+@use  'bool';
+@use 'for';
+body{
+    color: variables.$primary;
+    background-color: variables.$secondary
+}
+/*
+
+Solo estos tipos de comentarios se va compilar
+
+*/

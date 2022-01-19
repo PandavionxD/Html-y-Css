@@ -1,0 +1,18 @@
+:root{
+    --color-primario:blue;
+    --color-secundary: blueviolet;
+    --tamaño_fuente:12px
+}
+h1{
+color:var(--color-primario);
+}
+p{
+font-size: var(--tamaño_fuente);
+}
+
+/* + ->Primer elemento despues despues
+> -> todos los hijos directos de
++ -> todos los elementos despues de
+* -> todos los elementos o todos los elementos dentro */
+
+

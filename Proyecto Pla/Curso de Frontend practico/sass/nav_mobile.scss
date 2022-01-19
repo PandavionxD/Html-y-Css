@@ -1,0 +1,76 @@
+@import 'variables';
+@import 'estilos_globales';
+
+// $very_light_pink:#c7c7c7;
+// $white:#ffffff;
+// $text_input_field:#f7f7f7;
+// $black: #000000;
+// $hospital_green:#acd9b2;
+// $dark:#232830;
+
+// // Tamaño de fuente
+// $sm:1.6rem;
+// $md:1.8rem;
+// $lg:2rem;
+
+.nav-mobile{
+    display: flex;
+    flex-direction: column;
+    ul{
+        list-style: none;
+        margin: 2rem 2rem;
+        li{
+            margin: 1.2rem 0;
+        }
+        a{
+            text-decoration: none;
+            color: $black;
+            font-size: $lg;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+    .submenu-1{
+        border-bottom: 1px solid $very_light_pink;
+    }
+
+    .principal{
+        a{
+            text-transform: uppercase;
+        }
+    }
+    ul:nth-child(2),
+    ul:nth-child(3){
+        margin:0 2rem;
+    }
+    .submenu-2{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        ul{
+            margin-top: 0;
+            margin-bottom: 0;
+            li{
+                margin: 2rem 0;
+            }
+            .email{
+                font-size: $sm;
+                font-weight: 300;
+                margin: 0;
+            }
+            .salir{
+        
+                    font-size: $sm;
+                    font-weight: 500;
+                    color: $hospital_green;
+                
+            }
+            
+        }
+    }
+}
+.list-bot-1,
+.list-bot-2{
+    margin: 0.8rem 0 !important;
+            }

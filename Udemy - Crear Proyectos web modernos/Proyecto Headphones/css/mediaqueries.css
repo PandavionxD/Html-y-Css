@@ -1,0 +1,117 @@
+@media only screen and (max-width: 600px) {
+    .navbar{
+        background-color: #ca4172;
+        height: 80px;
+        box-shadow:2px 2px 15px 0px rgba(0, 0, 0, .42);
+        align-items: center;
+    }
+    .navbar .menu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        background-color: #ca4172;
+        height: 55vh;
+        left: -1em;
+        transform: translateY(-120%);
+        transition: all 1.4s;
+    }
+    .navbar .menu-toogle{
+        transform: translateY(0%);
+    }
+    .menu li{
+        margin-top:3em ;
+    }
+    .navbar .menu-bar{
+        display: block;
+        font-size: 2em;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    /* MAIN SECTION */
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        height: 70vh;                
+    }
+    .main img{
+        width: 12em;
+    }
+    .imagen{
+        margin-top: 6em;
+    }
+    .main h1{
+        margin-top: -50px;
+    }
+    .main .button-content{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+/* ABOUT SECTION */
+    .about{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .about img{
+        width: 300px;
+        margin-top: 3em;
+        margin-bottom: -2em;
+    }
+    .about .about-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .about .about-info{
+        text-align: center;   
+    }
+/* SUPPORT SECTION */
+    .support{
+        flex-direction: column;
+        padding-left: 30px;
+    }
+/* SUPPORT SECTION */
+    .banner{
+        height: 50vh;
+        background-position: left;
+    }
+    .banner .rating img{
+        width: 80px;
+    }
+    .banner .rating{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: -2em;
+    }
+    .banner .rating h2{
+        font-size: 1.5em;
+    }
+    .banner .secondary-info{
+        display: none;
+    }
+    /* FOOTER SECTION */
+    .footer{
+        flex-direction: column-reverse;
+    }
+    .footer .social-network{
+        margin: 2em;
+    }
+    .footer .quicklinks .menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer .quicklinks h3{
+        font-weight: lighter;
+        margin-top: 1em;
+        color: #f7b733;
+
+    }
+}

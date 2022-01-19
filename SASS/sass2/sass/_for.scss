@@ -1,0 +1,5 @@
+@for $iterador from 1 to 11{
+    .selector-#{$iterador}{
+        color: crimson;
+    }
+}

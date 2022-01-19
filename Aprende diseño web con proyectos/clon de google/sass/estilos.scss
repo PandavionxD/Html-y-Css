@@ -1,0 +1,110 @@
+// FALTAN LOS ESTILOS EN HOVER Y FOCUS PARA EL INPUT Y TBM LOS ICONOS
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: vw;
+    max-height: vh;
+}
+header{
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    li{
+        list-style: none;
+        margin: 20px;
+        font-size: .9em;
+        cursor: pointer;
+    }
+    a{
+        text-decoration: none;
+    }
+    img{
+        width: 30px;
+        border-radius: 50%;
+    }
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    figure{
+        cursor: pointer;
+    }
+    img{
+        width: 400px;
+        background-color: #fff;
+    }
+    input{
+        width: 500px;
+        margin: 10px;
+        padding: 12px;
+        border-radius: 20px;
+        border: 1px solid gray;
+    }
+    button{
+        width: 200px;
+        border: none;
+        padding: 10px;
+        background-color: #fff;
+        cursor: pointer;
+        margin: 10px;
+        font-size: .9em;
+    }
+    p{
+        font-size: .8em;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    .pais{
+        background-color: rgb(236, 231, 231);
+        padding: 10px 20px;
+        font-weight: lighter;
+        color: gray;
+        font-size: 1.2em;
+    }
+    .footer__enlaces{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(236, 231, 231);
+    }
+    .enlaces__uno{
+    display: flex;
+
+        li{
+            list-style: none;
+            cursor: pointer;
+            color: gray;
+            padding: 0 20px;    
+            font-weight: lighter;        
+        }
+    }
+    .enlaces__dos{
+        display: flex;
+        li{
+            list-style: none;
+            cursor: pointer;
+            margin: 10px;
+            color: gray;
+            padding: 0 10px;
+            font-weight: lighter;        
+        }
+    }
+}
+
+
+
+

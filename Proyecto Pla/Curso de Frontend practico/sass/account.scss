@@ -1,0 +1,76 @@
+@import 'variables';
+@import 'estilos_globales';
+
+// Estilos
+// Colores 
+// $very_light_pink:#c7c7c7;
+// $white:#ffffff;
+// $text_input_field:#f7f7f7;
+// $black: #000000;
+// $hospital_green:#acd9b2;
+// $dark:#232830;
+
+// // Tamaño de fuente
+// $sm:1.6rem;
+// $md:1.8rem;
+// $lg:2rem;
+
+body{
+    width: 100%;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto;
+    place-content: center;
+    h1{
+        font-size: $lg;
+        font-weight: 700;     
+    }
+    form{
+        height: 90vh;
+        width: 30rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        label{
+            font-size: $md;
+            font-weight: 500;
+        }
+        input{
+            border: none;
+            border-radius: 0.6rem;
+            background-color: $text_input_field;
+            padding: 1.2rem;
+            font-size: $sm;
+            font-weight: 300;
+            margin: 1.2rem 0;
+        }
+        input:focus{
+            outline-color: $hospital_green;
+        }
+    }
+}
+
+    .btn{
+        border: none;
+        border-radius: 0.6rem;
+        color: $white;
+        background-color: $hospital_green;
+        width: 100%;
+        height: 8rem;
+        font-size: $lg;
+        font-weight: 700;
+        cursor: pointer;
+
+    }
+@media (min-width:600px) {
+    form{
+        width: 40rem !important;
+    }
+}
