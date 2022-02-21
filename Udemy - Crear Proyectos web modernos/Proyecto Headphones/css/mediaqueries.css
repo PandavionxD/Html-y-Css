@@ -4,9 +4,19 @@
         height: 80px;
         box-shadow:2px 2px 15px 0px rgba(0, 0, 0, .42);
         align-items: center;
+        display: flex;
+        position: relative;
     }
     .navbar .menu{
-        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 65px;
+        background-color: #ca4172;
+        height: 30vh;
+        left: -1em;
+        transition: all 1.2s;
+        transform: translateY(-120%);
+        /* display: flex;
         flex-direction: column;
         position: absolute;
         top: 60px;
@@ -14,7 +24,7 @@
         height: 55vh;
         left: -1em;
         transform: translateY(-120%);
-        transition: all 1.4s;
+        transition: all 1.4s; */
     }
     .navbar .menu-toogle{
         transform: translateY(0%);
